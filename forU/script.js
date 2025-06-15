@@ -1,3 +1,3 @@
 function redirect() {
-  window.location.href = "thankyou.htm";
+  window.location.href = "thankyou.html";
 }
