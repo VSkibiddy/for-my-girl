@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #ffe6f0;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   display: flex;
   flex-direction: column;
@@ -34,9 +35,6 @@ h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   max-width: 90%;
-  background: rgba(255, 255, 255, 0.8); /* soft background for readability */
-  padding: 1rem;
-  border-radius: 20px;
 }
 
 .button {
@@ -53,4 +51,12 @@ h1 {
 
 .button:hover {
   background-color: #ff3385;
+}
+
+#ty {
+  background-image: url('image.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
