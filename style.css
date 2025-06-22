@@ -9,11 +9,6 @@ body {
   min-height: 100vh;
   text-align: center;
   color: #ff66a3;
-
-  /* Background image and fallback color */
-  background: linear-gradient(rgba(255, 230, 240, 0.85), rgba(255, 230, 240, 0.85)),
-              url('HOA.png') no-repeat center center fixed;
-  background-size: cover;
 }
 
 h1 {
